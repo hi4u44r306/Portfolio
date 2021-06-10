@@ -13,19 +13,21 @@
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #e0e7eb;
+  /* background-color: #e0e7eb; */
+  background-color: #7395ae;
   font-family: "Spartan", sans-serif;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #ffffff;
+  background-color: #b1a296;
   font-family: "Spartan", sans-serif;
 }
 
 /* If you want the content centered horizontally and vertically */
 .title {
+  color: white;
   position: absolute;
   top: 10%;
   left: 13%;
@@ -34,10 +36,10 @@
 }
 .title > h3 {
   font-size: 30px;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .info {
+  color: white;
   position: absolute;
   top: 50%;
   left: 45%;
@@ -49,7 +51,7 @@
   font-size: 80px;
 }
 .info > h4 {
-  background-color: #ddcfc3;
+  /* background-color: #ddcfc3; */
   border-radius: 5px;
   font-size: 25px;
 }
