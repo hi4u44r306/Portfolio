@@ -7,21 +7,21 @@
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
-  font-family: "Montserrat", Medium;
+  font-family: "Spartan", sans-serif;
 }
 
 /* Control the left side */
 .left {
   left: 0;
-  background-color: rgb(255, 255, 255);
-  font-family: "Montserrat", Medium;
+  background-color: #e0e7eb;
+  font-family: "Spartan", sans-serif;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: rgb(225, 235, 200);
-  font-family: "Montserrat", Medium;
+  background-color: #ffffff;
+  font-family: "Spartan", sans-serif;
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -34,6 +34,7 @@
 }
 .title > h3 {
   font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .info {
@@ -48,7 +49,7 @@
   font-size: 80px;
 }
 .info > h4 {
-  background-color: rgb(192, 255, 184);
+  background-color: #ddcfc3;
   border-radius: 5px;
   font-size: 25px;
 }
@@ -87,7 +88,7 @@
 .wrapper {
   display: inline-flex;
   position: absolute;
-  left: 30%;
+  left: 27%;
   bottom: 8%;
 }
 
@@ -170,7 +171,7 @@
 
 /* Popup window */
 .modal {
-  font-family: "Montserrat", Medium;
+  font-family: "Spartan", sans-serif;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
